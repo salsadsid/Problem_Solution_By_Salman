@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/44/A
+// Name        : .cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Status      : accepted
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 
