@@ -1,9 +1,9 @@
 //============================================================================
 // Problem     : https://codeforces.com/problemset/problem/1927/A
-// Name        : .cpp
+// Name        : 1927_A_Make_it_White_codeforces.cpp
 // Author      : Salman Sadik Siddiquee
 // Version     : 1
-// Status      : accepted
+// Difficuly   : 800
 //============================================================================
 
 #include <bits/stdc++.h>

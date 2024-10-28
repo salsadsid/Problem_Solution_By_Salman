@@ -1,9 +1,9 @@
 //============================================================================
 // Problem     : https://codeforces.com/problemset/problem/4/C
-// Name        : .cpp
+// Name        : 4_C_Registration_system_codeforces_v1.cpp
 // Author      : Salman Sadik Siddiquee
 // Version     : 1
-// Status      : accepted
+// Difficuly   : 1300
 //============================================================================
 
 #include <bits/stdc++.h>

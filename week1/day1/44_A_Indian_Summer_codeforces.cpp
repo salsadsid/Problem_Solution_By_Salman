@@ -1,9 +1,9 @@
 //============================================================================
 // Problem     : https://codeforces.com/problemset/problem/44/A
-// Name        : .cpp
+// Name        : 44_A_Indian_Summer_codeforces.cpp
 // Author      : Salman Sadik Siddiquee
 // Version     : 1
-// Status      : accepted
+// Difficuly   : 900
 //============================================================================
 
 #include <bits/stdc++.h>
