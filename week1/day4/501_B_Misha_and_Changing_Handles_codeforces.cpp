@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://codeforces.com/contest/501/problem/B
+// Name        : 501_B_Misha_and_Changing_Handles_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Difficuly   : 1100
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

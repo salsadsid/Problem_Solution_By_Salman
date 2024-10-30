@@ -1,3 +1,12 @@
+//============================================================================
+// Problem     : https://codeforces.com/contest/381/problem/A
+// Name        : 381_A_Sereja_and_Dima_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Difficuly   : 800
+//============================================================================
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
