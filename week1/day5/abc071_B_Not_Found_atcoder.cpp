@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://atcoder.jp/contests/abc071/tasks/abc071_b
+// Name        : abc071_B_Not_Found_atcoder.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

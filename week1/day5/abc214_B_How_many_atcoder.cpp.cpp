@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://atcoder.jp/contests/abc214/tasks/abc214_b
+// Name        : abc214_B_How_many_atcoder.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 
