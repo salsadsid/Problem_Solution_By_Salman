@@ -1,3 +1,13 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1997/A
+// Name        : 1997_A_Strong_Password_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Difficuly   : 900
+//============================================================================
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
  

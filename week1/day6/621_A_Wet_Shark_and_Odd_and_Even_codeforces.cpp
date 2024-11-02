@@ -1,3 +1,12 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/621/A
+// Name        : 621_A_Wet_Shark_and_Odd_and_Even_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Difficuly   : 900
+//============================================================================
+
+
 #include <bits/stdc++.h>
 #define ll long long int
 using namespace std;
