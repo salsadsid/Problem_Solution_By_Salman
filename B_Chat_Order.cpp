@@ -2,32 +2,35 @@
 using namespace std;
 
 
+string names[200005];
+map<string,int> mp;
+
 int main()
 {
     int testCase;
     cin>>testCase;
-    map<string,int>mp;
-    deque<string> dq;
-    int count=1;
-    while(testCase--)
+
+
+    for(int i=0;i<testCase;i++)
     {
-        string a;
-        cin>>a;
-        mp[a]=count++;
-        if(mp.find(a)!=mp.end())
-        {
-            // cout<<mp[a]<<endl;
-            dq.push_front(a);
-        }
-        else
-        {
-            dq.push_back(a);
-        }
+        string s;
+        cin>>s;
+        names[i]=s;
     }
 
-    for(auto it:dq)
+    // for(int i=0;i<testCase;i++)
+    // {
+    //     cout<<names[i];
+    // }
+
+    for(int i=testCase;i>=0;i--)
     {
-        cout<<it<<" ";
+        if(!mp[names[i]])
+        {
+            cout<<names[i]<<endl;
+        }
+        mp[names[i]]=1;
     }
+
     return 0;
 }
