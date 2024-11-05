@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1703/C
+// Name        : 1703_C_Cypher_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+// Difficuly   : 800
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 
