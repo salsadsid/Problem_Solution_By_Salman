@@ -6,9 +6,9 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    int n,m;
-    cin>>n>>m;
-    
+    int n;
+    cin>>n;
+
     vector<int>vt;
     for(int i=1;i<=n;i++)
     {
@@ -16,19 +16,19 @@ int main()
         cin>>x;
         vt.push_back(x);
     }
+    sort(vt.begin(),vt.end());
     int count=0;
-    for(int i=1;i<=m;i++)
+    for(int i=1,j=0;j<n;j++)
     {
-        int y;
-        cin>>y;
-        set<int>st;
-        for(int i=y-1;i<vt.size();i++)
+        if(i<= vt[j])
         {
-            st.insert(vt[i]);
+            count++;
+            i++;
         }
-
-        cout<<st.size()<<endl;
     }
+
+    cout<<count<<endl;
+
 
     return 0;
 }

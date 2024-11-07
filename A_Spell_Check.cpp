@@ -21,23 +21,32 @@ int main()
             cout<<"NO"<<endl;
             continue;
         }
-        int count=0;
+        map<char,bool>mp;
+        mp['T']=false;
+        mp['i']=false;
+        mp['m']=false;
+        mp['u']=false;
+        mp['r']=false;
         for(int i=0;i<5;i++)
         {
-            if(s[i]=='T'||s[i]=='i'||s[i]=='m'||s[i]=='u'||s[i]=='r')
+            auto it =mp.find(s[i]);
+            if(it==mp.end())
             {
-                count++;
+                it->second=true;
             }
         }
+        
+        auto it =mp.begin();
 
-        if(count==5)
+        bool flag= false;
+
+        while(it!=mp.end())
         {
-            cout<<"YES"<<endl;
+            flag= it->second;
+            it++;
         }
-        else
-        {
-            cout<<"NO"<<endl;
-        }
+
+        cout<<(false?"YES":"NO")<<endl;
     }
     return 0;
 }
