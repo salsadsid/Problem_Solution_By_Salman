@@ -21,32 +21,17 @@ int main()
             cout<<"NO"<<endl;
             continue;
         }
-        map<char,bool>mp;
-        mp['T']=false;
-        mp['i']=false;
-        mp['m']=false;
-        mp['u']=false;
-        mp['r']=false;
-        for(int i=0;i<5;i++)
-        {
-            auto it =mp.find(s[i]);
-            if(it==mp.end())
-            {
-                it->second=true;
-            }
-        }
         
-        auto it =mp.begin();
+        sort(s.begin(),s.end());
 
-        bool flag= false;
-
-        while(it!=mp.end())
+        if(s=="Timru")
         {
-            flag= it->second;
-            it++;
+            cout<<"YES"<<endl;
         }
-
-        cout<<(false?"YES":"NO")<<endl;
+        else
+        {
+            cout<<"NO"<<endl;
+        }
     }
     return 0;
 }
