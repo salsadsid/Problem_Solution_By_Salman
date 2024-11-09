@@ -23,7 +23,7 @@ int main()
 
         for(auto it:mp)
         {
-            if(it.second !=0)
+            if(it.second %2 !=0)
             {
                 odds++;
             }
