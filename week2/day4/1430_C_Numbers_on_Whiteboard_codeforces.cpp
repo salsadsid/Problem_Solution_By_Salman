@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1430/C
+// Name        : 1430_C_Numbers_on_Whiteboard_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

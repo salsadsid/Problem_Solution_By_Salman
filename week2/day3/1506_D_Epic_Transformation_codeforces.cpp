@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1506/D
+// Name        : 1506_D_Epic_Transformation_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

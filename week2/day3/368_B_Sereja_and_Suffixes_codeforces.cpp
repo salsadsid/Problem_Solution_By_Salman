@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/368/B
+// Name        : 368_B_Sereja_and_Suffixes_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

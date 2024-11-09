@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1702/C
+// Name        : 1702_C_Train_and_Queries_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 void solve()

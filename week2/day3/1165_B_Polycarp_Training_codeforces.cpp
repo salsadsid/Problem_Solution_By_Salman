@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1165/B
+// Name        : 1165_B_Polycarp_Training_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

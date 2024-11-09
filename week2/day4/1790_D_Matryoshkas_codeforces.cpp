@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1790/D
+// Name        : 1790_D_Matryoshkas_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 #define ll long long int
 using namespace std;

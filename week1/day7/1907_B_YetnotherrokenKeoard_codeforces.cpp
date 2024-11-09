@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1907/B
+// Name        : 1907_B_YetnotherrokenKeoard_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

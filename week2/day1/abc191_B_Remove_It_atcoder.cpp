@@ -1,3 +1,11 @@
+//============================================================================
+// Problem     : https://atcoder.jp/contests/abc191/tasks/abc191_b
+// Name        : abc191_B_Remove_It_atcoder.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
+
 #include <bits/stdc++.h>
 #define ll long long int
 using namespace std;

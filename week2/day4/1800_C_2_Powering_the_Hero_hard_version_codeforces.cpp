@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1800/C2
+// Name        : 1800_C_2_Powering_the_Hero_hard_version_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 #define ll long long int
 using namespace std;
