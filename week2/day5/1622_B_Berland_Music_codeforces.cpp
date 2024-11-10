@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1622/B
+// Name        : 1622_B_Berland_Music_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include<bits/stdc++.h>
 using namespace std;
 string s;
