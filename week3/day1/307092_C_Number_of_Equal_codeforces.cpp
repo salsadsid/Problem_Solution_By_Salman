@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C
+// Name        : 307092_C_Number_of_Equal_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

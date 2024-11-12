@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/B
+// Name        : 307092_B_Number_of_Smaller_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 1
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 
