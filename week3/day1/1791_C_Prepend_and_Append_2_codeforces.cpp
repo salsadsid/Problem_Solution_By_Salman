@@ -1,3 +1,10 @@
+//============================================================================
+// Problem     : https://codeforces.com/problemset/problem/1791/C
+// Name        : 1791_C_Prepend_and_Append_2_codeforces.cpp
+// Author      : Salman Sadik Siddiquee
+// Version     : 2
+//============================================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 
