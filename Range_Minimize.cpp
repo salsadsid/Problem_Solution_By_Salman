@@ -19,29 +19,19 @@ int main()
             cin>>x;
             vt.push_back(x);
         }
+        sort(vt.begin(),vt.end());
+        
+        if (n <= 3) {
+            cout << 0 << endl;
+            continue;
+        }
 
-        if(n>1)
-        {
-            sort(vt.begin(),vt.end());
-            vt.pop_back();
-            vt.pop_back();
-            for(auto it:vt)
-            {
-                cout<<it<<" ";
-            }
-            if(vt.size()>1)
-            {
-                cout<<vt[vt.size()-1]-vt[0]<<endl;
-            }
-            else
-            {
-                cout<<0<<endl;
-            }
-        }
-        else
-        {
-            cout<<0<<endl;
-        }
+
+        int opnt1= vt[n-1]-vt[2];
+        int opnt2= vt[n-3]-vt[0];
+        int opnt3= vt[n-2]-vt[1];
+
+        cout<<min({opnt1, opnt2, opnt3})<<endl;
     }
     return 0;
 }
