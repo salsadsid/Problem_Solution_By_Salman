@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
 int main()
@@ -6,19 +7,34 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    int t;
+    ll t;
     cin>>t;
 
     while(t--)
     {
-        int a,b,c,d;
+        ll a,b,c,d;
 
         cin>>a>>b>>c>>d;
-        int possibleSum=(a*c)+b;
-        int maxAcoinsNeed=d/c;
-        int minBcoinsNeed=d%c;
+        ll aCoinsNeed=d/c;
+        ll bCoinNeed=d%c;
 
-        cout<<(maxAcoinsNeed >= a && minBcoinsNeed >=b ? "YES" :"NO")<<endl;
+        if(bCoinNeed >b)
+        {
+            cout<<"NO"<<endl;
+        }
+        else
+        {
+            long long sum=(a*c)+b;
+
+            if(sum >= d)
+            {
+                cout<<"YES"<<endl;
+            }
+            else
+            {
+                 cout<<"NO"<<endl;
+            }
+        }
     }
 
     return 0;
